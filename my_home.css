@@ -1,0 +1,46 @@
+
+<style>
+@@font-face {
+  font-family: 'Nanum Brush Script';
+  src:"https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap"
+}
+a{
+  text-decoration: none;
+}
+*{
+  font-family: 'Nanum Brush Script', cursive;
+}
+.d {
+  margin:10px;
+  float:left;
+}
+span {
+  margin:10px;
+  padding-left:10px;
+}
+h2, h3{
+  text-align:center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+h2 {
+  word-spacing:3em;
+}
+body {
+  font-size:50px;
+}
+.a {
+  float:left;
+}
+.b {
+  border-top:1px solid black;
+  /*
+  display:grid;
+  grid-template-columns:100px 1fr;*/
+}
+.c {
+  background-color:black;
+  width:200px;
+  margin:5px;
+}
+</style>
