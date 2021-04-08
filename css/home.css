@@ -1,0 +1,98 @@
+
+<style>
+@font-face {
+  font-family: 'Nanum Brush Script';
+  src:"https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap"
+}
+a, .i, #home, #intro, #info, #cont {
+  text-decoration: none;
+}
+
+#home, #intro, #info, #cont {
+  display:block;
+  height:70px;
+  line-height:23px;
+  background:linear-gradient(#eee, #ccc);
+  color:#333;
+  text-align:center;
+  text-shadow:0 1px 0 rgba(255,255,255,.5);
+  border-bottom:1px solid #aaa;
+  border-radius: 10%;
+}
+h1 {
+  margin: 0;
+  padding-top: 30px;
+}
+.h {
+  color: #333;
+}
+
+*{
+  font-family: 'Nanum Brush Script', cursive;
+}
+body {
+  font-size:50px;
+  background-color: gray;
+  color: #333;
+}
+section{
+  border-radius: 10%;
+}
+div {
+  display: block;
+  margin:auto;
+  margin-top: 200px;
+  width: 30%;
+  text-align: center;
+  background:#fff;
+  border-radius: 10%;
+  box-shadow:0 1px 3px rgba(0,0,0,.3);
+
+}
+p {
+  height: 0;
+  padding:0 15px;
+  overflow:hidden;
+  transition:height .4s ease-out, padding .4s ease-out;
+  margin: 0;
+}
+a:active {
+  color:red;
+}
+:target + p {
+  padding:10px 15px;
+  border-bottom:1px solid white;
+  border-radius:10%;
+}
+#intro:target + p, #info:target + p, #home:target + p, #cont:target + p {
+  height:70px;
+  border-radius:10%;
+}
+#cont:target + p {
+  border-bottom: 1px solid gray;
+}
+#home:target, #cont:target, #info:target, #intro:target{
+  outline:none;
+}
+.a, .b {
+  filter: grayscale(90%);
+  width:50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 30%;
+}
+@media(max-width:900px){
+  h2 {
+    word-spacing: 1em;
+  }
+  .e {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 400px;
+  }
+}
+</style>
